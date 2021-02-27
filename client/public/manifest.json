@@ -1,0 +1,20 @@
+{
+  "short_name": "Todo App",
+  "name": "Prem Todo",
+  "icons": [
+    {
+      "src": "Todo-App.ico",
+      "sizes": "224x224",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "title_logo.png",
+      "sizes": "224x224",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

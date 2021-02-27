@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Weather App</title>
+        <style type="text/css">
+            html {
+                height: 100%;
+            }
+            body {
+                height: 100vh;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                justify-content: center;
+            }
+        
+            .error-page{
+                border: 2px solid green;
+                align-items: center;
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                padding: 40px 8%;
+                border-radius: 20px;
+                background: #fff;
+            }
+
+            .error-msg{
+                font-size: 2em;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="error-page">
+            <img src="./offline.png" alt="offine-img"/>    
+            <h2 class="error-msg">
+                
+                <span>It seems that you are <strong>Offline.</strong>Please Check  your internet connectivity</span>
+            </h2>
+        </div>
+    </body>
+</html>
